@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY Portfolio</title>
+    <link rel="stylesheet" href="pstyle.css" />
+    <script src="https://kit.fontawesome.com/2e6204dfef.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <nav>
+           
+            <img src="logo1.jpg" alt="no action.png" class="logo" />
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#certificate">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="container">
+            <div class="header-text"> 
+                <h1><br><span>Priya Kushwaha</span></h1>
+                <p> Passionate Front-End Developer with 1+ year of experience using HTML,CSS, JavaScript, React.js, Redux Toolkit, Tailwind CSS, MYSQL to build all aspects of he user experience and user interface for client-facing landing pages. Skilled in building responsive and visually appealing
+                    interfaces using Bootstrap, Tailwind CSS, React, and Redux Toolkit. Hands-on experience in backend
+                    technologies like Node.js, MongoDB, SQL, and RESTful API integration. Adept at working in agile
+                    environments, collaborating with cross-functional teams, and delivering projects with a focus on quality and
+                    performance.
+                    </p>
+            </div>
+        </div>
+    </div>
+    <!-- /*--------about section--*/ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="priya1.png" alt="#" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>
+                        I am Priya Singh Kushwaha. Bringing you <span> Web Development and design from the
+                            future.</span> My experties is developing next-level websits and Web applications including
+                        full Front-End design.Collaborate with designers to implement visually appealing and responsive user interfaces.Write clean, maintainable, and scalable code using HTML, CSS, JavaScript, and frameworks like React.
+                        Build reusable components and libraries for future use.Manage application state effectively using tools like Redux Toolkit to ensure a smooth user experience.
+                        Use Git and GitHub for version control and collaborate effectively with other team members.
+                        Participate in agile ceremonies like sprint planning, daily stand-ups, and retrospectives.
+                        Stay updated with the latest industry trends, tools, and technologies.
+Continuously enhance skills in emerging tools and frameworks, such as AWS, Node.js, and MongoDB.                        
+                        
+                    </p>
+                </div>
+            </div>
+             <div class="tab-tittle">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('tools')">Tools</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Developer / Website Developer / Web Development</span><br>
+                            <li>HTML/HTML5</li>
+                            <li>CSS/CSS3/Tailwind CSS</li>
+                            <LI>Bootstrap</LI>
+                            <li>JavaScript</li>
+                            <li>SQL/MYSQL/MangoDB</li>
+                            <li>React.js</li>
+                            <li>Redux Toolkit</li>
+                            <li>Node.js</li>
+                            <li>AWS</li>
+                            <li>RestFull API</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Software Engineer Trainee(01/07/2022 - 04/10/2022)</span> <br>UNIQUE TECHNOLOGIES
+                                GREEN ENERGY CLEAN WATER NOIDA<br> <br>
+                                <p>The trainee’s responsibility may include learning programming languages,
+                                    software development methodologies and industry best practices. It is also be
+                                    involved in codding, testing, debugging and maintaining software applications.
+                                    The goal of the training program is to equip the trainee with the technical skills.
+                                </p>
+                            </li>
+                            <li> <span> Front-End Developer (Feburary-2023 - Present) </span> <br> U2OPIA MOBILE Company Gurugram. <br> <br></li>
+                       <p>Designed and developed responsive user interfaces for various web applications using HTML, CSS, JavaScript,
+                        and React.</p> <br>
+                       <p> Integrated Redux Toolkit for state management, ensuring seamless communication between components and
+                        APIs.</p><br>
+
+                        <p>Enhanced user experience by optimizing web applications for speed and cross-browser compatibility.
+                        Collaborated with backend developers to implement RESTful APIs, enabling dynamic and interactive web
+                        functionalities.</p><br>
+
+                        <p>Developed and maintained component libraries using React Bootstrap and Tailwind CSS for consistent UI
+                        across projects.</p><br>
+
+                        <p>Utilized Git and GitHub for version control and effective collaboration within the development team.
+                        Achieved a 15% improvement in application performance by optimizing React components and database
+                        queries.</p><br>
+
+                        <p>Spearheaded the migration of legacy code to React, reducing development time by 10%.
+                        Utilized HTML, CSS, and JavaScript To create 50+ Responsive landing pages for both company and client.</p>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019 - 2023</span><br>B.TECH || From Dr. A.P. J. Abdul Kalam Technical University
+                                Lucknow U.P - <span>(CGPA-7.71)</span></li>
+                            <li><span>2017-2019</span><br>INTERMEDIATE || From Shree Alagu Yadav Inter Collage Barenda
+                                Ghazipur U. P - <span> (72.2%)</span></li>
+                            <li><span>High School</span><br> Amil Abdul Gafur UMV Mata Ghazipur - <span>(78.3%)</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="tools">
+                        <ul>
+                            <li>Git/GitHub/Visual Studio Code</li>
+
+                        </ul>
+                    </div>
+        </div>
+    </div>
+    <!-- Services---------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-list">
+                <div class="features">
+                    <h2>Front-End Developer</h2>
+                    <p>My focuse on creating the visual and intractive element of a website that users directly intract with. I am usessome languages like HTML, CSS, JavaScript to built the User interface.</p>
+                    
+                </div>
+                <div class="features">
+                    <h2>React.Js Developer</h2>
+                    <p>I am  design, builds, and maintains websites. frontend development, dealing with visual aand interactive that users see. Website developers uses various programing language HTML, CSS, JavaScript.  </p>
+                   
+                </div>
+                <div class="features">
+                    <h2>Javascript Developer</h2>
+                    <p>I am creating and maintaining websites or web applications. It involves a combination of frontend development, focusing on the user interface. I am use a variety of programming languages and frameworks .</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------portfolio---- -->
+    <div id="certificate">
+        <div class="container">
+            <h1 class="sub-tittle">Certificates</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="js.png" alt="#">
+                    <div class="layer">
+                        <h3>JavaScript </h3>
+                        <p>Course completed by Infosys Springbard </p>
+                        <a href="javascript.pdf"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                   
+                </div>
+                <div class="work">
+                    <img src="security1.jpg" alt="#">
+                    <div class="layer">
+                        <h3>CSS</h3>
+                        <p>CSS course offered by IIT Kanpur</p>
+                        <a href="https://ict-certificates.s3.ap-south-1.amazonaws.com/17793-95864-76eae00302aad0ee-2021.pdf"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="hck.png" alt="#">
+                    <div class="layer">
+                        <h3>HACK IT OUT </h3>
+                        <p>Hack It Out event participate in IIT BHU</p>
+
+                        <a href="Priya Singh Kushwaha  Hack It Out.pdf"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="" class="btn">See More</a> -->
+        </div>
+    </div>
+    <!-- -------------------------------contact------------------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>priyakushwaha1643.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91922541578</p>
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/priya-singzh-kushwaha-901786232?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2FdCNqcQkTyuH5HQgdjzLXQ%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Priya-kusingh"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/PriyaSi54272281"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="Priya Kushwaha (2).pdf" download class="btn btn1">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                          <input type="text" name="Name" placeholder="Enter Your Name" required>
+                          <input type="email" name="Email" placeholder="  Enter Your Email" required>
+                          <textarea name="Message"  rows="6" placeholder="Enter Your Messages"></textarea>
+                          <button type="submit" class="btn btn1">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+
+
+        </div>
+       
+    </div>
+    <div class="copyright">
+        <p>Copyright 2023 @ Developed by <i class="fa-solid fa-heart "></i> Priya Kushwaha</p>
+    </div>
+    <script src="pscript.js">
+
+    </script>
+</body>
+
+</html>
